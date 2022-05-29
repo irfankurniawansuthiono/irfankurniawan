@@ -1,4 +1,4 @@
-.jumbotron {
+.jumbotron{
   padding-top: 6rem;
 }
 .jumbotron .rounded-circle {
@@ -14,4 +14,7 @@ footer {
 }
 section {
   padding-top: 5rem;
+}
+.contact .container{
+  border: 2px solid red";
 }

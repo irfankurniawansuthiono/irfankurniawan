@@ -178,37 +178,47 @@
           </div>
         </div>
 
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
-              <input type="email" class="form-control shadow" id="exampleFormControlInput1" placeholder="name@example.com" style="background-color: rgb(255, 234, 0)" />
+        <form action="https://formspree.io/f/xzboojey" method="post">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email address <input type="email" name="email" class="form-control shadow" id="exampleFormControlInput1" placeholder="name@example.com" style="background-color: #f3f4f5" />
+                </label>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Subject</label>
-              <input type="email" class="form-control shadow" id="exampleFormControlInput1" placeholder="type an email-subject here" style="background-color: rgb(255, 234, 0)" />
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Subject
+                  <input type="text" name="subject" class="form-control shadow" id="exampleFormControlInput1" placeholder="subject goes here" style="background-color: #f3f4f5" />
+                </label>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-              <textarea class="form-control shadow" id="exampleFormControlTextarea1" rows="3" style="background-color: rgb(255, 234, 0)"></textarea>
+
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                <textarea name="message" class="form-control shadow" id="exampleFormControlTextarea1" rows="3" cols="19" style="background-color: #f3f4f5"></textarea>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row justify-content-end">
-          <div class="col-md-3 mb-4">
-            <a href="#" target="_blank" class="btn shadow" style="background-color: rgb(255, 234, 0)">Send</a>
+          <!-- your other form fields go here -->
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="col-md-3 mb-4">
+                <button type="submit" class="btn btn-shadow" style="background-color: #f3f4f5">Send</button>
+              </div>
+            </div>
           </div>
-        </div>
+        </form>
       </div>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#f3f4f5"
