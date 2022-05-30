@@ -18,3 +18,14 @@ section {
 .contact .container{
   border: 2px solid red";
 }
+.container #navbarNav ul li a{
+  border-radius: 10px;
+}
+.container #navbarNav ul li a:hover{
+  background-color: #ffd700; 
+  border-radius: 10px;
+}
+.container #navbarNav ul li{
+  padding: 0px 5px;
+  border-radius: 10px;
+}
